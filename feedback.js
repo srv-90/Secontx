@@ -23,7 +23,7 @@
                     <input id="feedback-email" type="email" name="email" maxlength="254" placeholder="your@email.com" autocomplete="email">
                     <small class="feedback-helper">Only if you’d like a reply. Your message is delivered to the site owner via FormSubmit.</small>
                     <input class="feedback-honeypot" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
-                    <input type="hidden" name="_subject" value="Deep Web Nest feedback">
+                    <input type="hidden" name="_subject" value="3HK-X feedback">
                     <button class="feedback-submit" type="submit"><span aria-hidden="true">↗</span> Submit Feedback</button>
                     <p class="feedback-status" role="status" aria-live="polite" hidden></p>
                 </form>
