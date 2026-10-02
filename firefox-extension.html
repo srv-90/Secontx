@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firefox Extension Setup - Deep Web Nest</title>
+    <link rel="icon" href="images/sensitive1.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="images/sensitive.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="ambient-page firefox-guide-page">
+    <div class="container">
+        <div class="page-header">
+            <h1><img src="images/sensitive.png" alt="Sensitive" class="header-logo"></h1>
+        </div>
+
+        <div class="page-section-title">
+            <a class="back-arrow" href="movies.html" aria-label="Back to Movies"></a>
+            <h2><span class="firefox-title-mark" aria-hidden="true">Fx</span> Firefox Extension</h2>
+        </div>
+
+        <main class="firefox-guide-card">
+            <p class="guide-intro">Follow these steps to load the extension temporarily in Firefox.</p>
+            <ol class="firefox-steps">
+                <li><span>Download the extension ZIP</span><small>Save it somewhere easy to find, such as your Downloads folder.</small></li>
+                <li><span>Open Firefox’s temporary add-on page</span><small>Enter <code>about:debugging#/runtime/this-firefox</code> in the address bar.</small></li>
+                <li><span>Choose “This Firefox”</span><small>Then click <strong>Load Temporary Add-on…</strong>.</small></li>
+                <li><span>Select the extension file</span><small>Choose the downloaded ZIP. If Firefox does not accept it, extract it and select <code>manifest.json</code> from the extracted folder.</small></li>
+            </ol>
+
+            <div class="temporary-note"><strong>Temporary installation:</strong> Firefox removes the extension when you close or restart the browser, so load it again using the same steps. Firefox keeps unsigned add-ons temporary in its standard version; this mode is intended for testing.</div>
+
+            <a class="firefox-download-button" href="https://www.mediafire.com/file/6j0ul79vzaf0ak2/Extention+Netflix.zip/file" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">⇩</span> Download Firefox ZIP
+            </a>
+        </main>
+    </div>
+    <script src="feedback.js"></script>
+</body>
+</html>
