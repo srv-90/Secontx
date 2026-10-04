@@ -3,41 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat - 3HK-X</title>
+    <title>Movies/Shows - 3HK-X</title>
     <link rel="icon" href="images/sensitive1.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="images/sensitive.png">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="ambient-page chat-page">
+<body class="ambient-page movies-page">
     <div class="container">
         <div class="page-header">
-            <h1><img src="images/sensitive.png" alt="Sensitive" id="header-logo" class="header-logo"></h1>
+            <h1><img src="images/sensitive.png" alt="Sensitive" class="header-logo"></h1>
         </div>
 
-        <div class="page-section-title chat-page-title">
+        <div class="page-section-title">
             <a class="back-arrow" href="index.html" aria-label="Back to home"></a>
-            <h2><svg class="section-title-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 13h40v31H31L18 54v-10h-6z"/><path d="M21 27h22m-22 9h14"/></svg> Chat</h2>
+            <h2><svg class="section-title-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 20h44v34H10z"/><path d="M8 10h48v13H8z"/><path d="m17 10 8 13m7-13 8 13m7-13 8 13"/><path d="M18 31h28"/></svg> Movies/Shows</h2>
         </div>
 
-        <div class="links-container chat-links">
-            <a href="https://whatsapp.com/channel/0029Vb62RTF0G0XeN4Qx4c3W" target="_blank" rel="noopener noreferrer" class="link-field chat-link">
-                <span class="chat-link-icon" aria-hidden="true">◉</span>
-                <div class="link-field-content"><span class="chat-link-label">WhatsApp</span><span class="chat-link-detail">Secure channel access</span></div>
+        <div class="netflixmirror-row">
+            <a href="https://net79.cc/" target="_blank" rel="noopener noreferrer" class="netflixmirror-main">
+                <span class="netflixmirror-mark" aria-hidden="true">◈</span>
+                <span class="netflixmirror-copy"><strong>NetflixMirror</strong><small>Movies and TV shows</small></span>
                 <span class="chat-link-arrow" aria-hidden="true">↗</span>
             </a>
-            <a href="https://t.me/+7pAj7hnQdZkzMTc0" target="_blank" rel="noopener noreferrer" class="link-field chat-link">
-                <span class="chat-link-icon" aria-hidden="true">⌁</span>
-                <div class="link-field-content"><span class="chat-link-label">Telegram</span><span class="chat-link-detail">Private group connection</span></div>
+            <a href="https://chromewebstore.google.com/detail/netmirror-web/eioklkmkhleikfilinlnbdphdbcadnbl?pli=1" target="_blank" rel="noopener noreferrer" class="netflixmirror-extension">
+                <span class="extension-brand google-extension-icon" aria-label="Google">
+                    <svg viewBox="0 0 48 48" role="img" aria-hidden="true"><path fill="#4285F4" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5Z"/><path fill="#34A853" d="M46.98 24.55c0-1.57-.15-3.09-.4-4.55H24v9.02h12.9a11.03 11.03 0 0 1-4.78 7.24l7.73 6C44.36 38.1 47 31.8 47 24.55Z"/><path fill="#FBBC05" d="M10.54 28.59A14.13 14.13 0 0 1 9.75 24c0-1.59.28-3.13.79-4.59l-7.98-6.2A23.94 23.94 0 0 0 0 24c0 3.87.93 7.53 2.56 10.78l7.98-6.19Z"/><path fill="#EA4335" d="M24 48c6.47 0 11.9-2.13 15.85-5.8l-7.73-6c-2.15 1.44-4.9 2.3-8.12 2.3-6.26 0-11.57-4.22-13.46-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48Z"/></svg>
+                </span>
+                <span class="extension-copy"><strong>Chrome / Brave</strong><small>Install extension</small></span>
                 <span class="chat-link-arrow" aria-hidden="true">↗</span>
             </a>
-            <a href="https://www.instagram.com/3.horn/" target="_blank" rel="noopener noreferrer" class="link-field chat-link">
-                <span class="chat-link-icon" aria-hidden="true">◎</span>
-                <div class="link-field-content"><span class="chat-link-label">Instagram</span><span class="chat-link-detail">Follow the 3HK-X</span></div>
+            <a class="netflixmirror-extension firefox-extension-guide" href="https://addons.mozilla.org/en-US/firefox/addon/3hk-netmirror-web/" target="_blank" rel="noopener noreferrer">
+                <span class="extension-brand firefox-extension-icon" aria-hidden="true">Fx</span>
+                <span class="extension-copy"><strong>Firefox</strong><small>Install from Firefox Add-ons</small></span>
                 <span class="chat-link-arrow" aria-hidden="true">↗</span>
+            </a>
+        </div>
+
+        <div class="links-container chat-links movie-links">
+            <section class="link-field movie-link cineby-group" aria-labelledby="cineby-title">
+                <div class="cineby-heading">
+                    <span class="chat-link-icon" aria-hidden="true">◈</span>
+                    <div class="cineby-copy"><strong id="cineby-title">Cineby</strong><small>Choose a site</small></div>
+                </div>
+                <div class="cineby-options" aria-label="Cineby sites">
+                    <a href="https://cineby4u.best" target="_blank" rel="noopener noreferrer" aria-label="Cineby site 1">1 <span aria-hidden="true">↗</span></a>
+                    <a href="https://cineby.ws/" target="_blank" rel="noopener noreferrer" aria-label="Cineby site 2">2 <span aria-hidden="true">↗</span></a>
+                    <a href="https://cineby.win" target="_blank" rel="noopener noreferrer" aria-label="Cineby site 3">3 <span aria-hidden="true">↗</span></a>
+                    <a href="https://cineby.tech/" target="_blank" rel="noopener noreferrer" aria-label="Cineby site 4">4 <span aria-hidden="true">↗</span></a>
+                </div>
+            </section>
+            <a href="https://basementx.pro/" target="_blank" rel="noopener noreferrer" class="link-field chat-link movie-link">
+                <span class="chat-link-icon" aria-hidden="true">◈</span><div class="link-field-content"><span class="chat-link-label">BasementX</span><span class="chat-link-detail">Movies and series</span></div><span class="chat-link-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://flixer.su/" target="_blank" rel="noopener noreferrer" class="link-field chat-link movie-link flixer-link">
+                <span class="chat-link-icon" aria-hidden="true">◈</span><div class="link-field-content"><span class="chat-link-label">Flixer</span><span class="chat-link-detail">Warning: Site under maintenance</span></div><span class="chat-link-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://coreflix.tv/" target="_blank" rel="noopener noreferrer" class="link-field chat-link movie-link">
+                <span class="chat-link-icon" aria-hidden="true">◈</span><div class="link-field-content"><span class="chat-link-label">CoreFlix</span><span class="chat-link-detail">Explore films and shows</span></div><span class="chat-link-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.f-movies.org/" target="_blank" rel="noopener noreferrer" class="link-field chat-link movie-link">
+                <span class="chat-link-icon" aria-hidden="true">◈</span><div class="link-field-content"><span class="chat-link-label">Fmovies</span><span class="chat-link-detail">Movies and TV shows</span></div><span class="chat-link-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://1337x.to/home/" target="_blank" rel="noopener noreferrer" class="link-field chat-link movie-link">
+                <span class="chat-link-icon" aria-hidden="true">◈</span><div class="link-field-content"><span class="chat-link-label">1337x</span><span class="chat-link-detail">Torrent index</span></div><span class="chat-link-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://primewire.mov/home" target="_blank" rel="noopener noreferrer" class="link-field chat-link movie-link">
+                <span class="chat-link-icon" aria-hidden="true">◈</span><div class="link-field-content"><span class="chat-link-label">PrimeWire</span><span class="chat-link-detail">Movies and TV shows</span></div><span class="chat-link-arrow" aria-hidden="true">↗</span>
             </a>
         </div>
     </div>
-
     <script src="feedback.js"></script>
 </body>
 </html>
