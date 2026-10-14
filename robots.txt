@@ -1,4 +1,4 @@
-# AI crawler preferences. Cooperative crawlers should honor these rules.
+
 User-agent: GPTBot
 Disallow: /
 
@@ -41,6 +41,5 @@ Disallow: /
 User-agent: Applebot-Extended
 Disallow: /
 
-# Keep ordinary search crawlers allowed.
 User-agent: *
 Allow: /
